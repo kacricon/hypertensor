@@ -1,0 +1,7 @@
+# ignore binaries without extensions
+*
+!*.*
+!*/
+
+# output files
+*.dSYM
