@@ -7,8 +7,8 @@ Bare-bones library for tensor manipulation and autograd written in C.
 Train a neural net bigram model similar to the what is discussed in the [first video](https://www.youtube.com/watch?v=PaCmpygFfXo&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=2) of the `makemore` tutorial series:
 
 [x] Load names.txt data.
-[] Encode data as integers and split into training and validation.
-[] One-hot encode integer vector.
+[x] Encode data as integers and generate x and y vectors.
+[] One-hot encode input integer vector.
 [] Random init of float tensors.
 [] Matmul.
 [] Exp.
